@@ -41,14 +41,14 @@ Las preguntas detalladas a continuación pueden ser contestadas en el lenguaje d
                         /* BC FACTORIAL
                         * n! = n * (n-1) * (n-2) .. 1 [eg. 5! = 5 * 4 * 3 * 2 * 1 = 120]
                         */
-                        function bcfact($n){
+                      /*  function bcfact($n){
                             $factorial=$n;
                             while (--$n>1) $factorial=bcmul($factorial,$n);
                             return $factorial;
                         }
                         print bcfact(5); 
                         print "<br/>"; 
-                        print bcfact(50); 
+                        print bcfact(50); */
                     ?>  
             </code></p>
                 <p><a class="btn btn-default" href="https://github.com/gairga/dental">GitHub &raquo;</a></p>
